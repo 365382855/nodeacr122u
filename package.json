@@ -19,7 +19,6 @@
     "url": "git://github.com/danieloneill/nodeacr122u.git"
   },
   "scripts": {
-    "preinstall": "(pkg-config libnfc --exists) || (echo Sorry, you need to install libnfc and development headers to build this module.; exit 1)",
     "install": "(node-gyp rebuild 2> builderror.log) || (exit 1)"
   },
   "engines": {
